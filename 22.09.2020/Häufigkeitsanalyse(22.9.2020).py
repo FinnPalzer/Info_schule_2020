@@ -6,5 +6,5 @@ buchstabenfolge_festgelegt = 'es'
 
 
 for i in range(0,len(text)+1)
-if(
-### noch nicht fertig   ###
+if( 
+### noch nicht fertig   ### @FinnPalzer@FinnPalzer
