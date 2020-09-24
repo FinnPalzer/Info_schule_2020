@@ -9,4 +9,4 @@ while (zahl >= 0) :
 print("Die Quersumme beträgt"quersumme)
     
 
-###noch nicht ganz fertig lul###
+###noch nicht ganz fertig lulf###
