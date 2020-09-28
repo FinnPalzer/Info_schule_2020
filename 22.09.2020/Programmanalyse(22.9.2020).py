@@ -19,7 +19,7 @@ while richtig and (not genug):
         if ergebniss == produkt:
             zähler = zähler +1
             print("richtig")
-            print("Richtige Antworten:",zähler)     ### * Auch unten hin möglich gewesen wenn man das Ergebniss erst am Ende haben will###
+            print("Richtige Antworten:",zähler)     ### * Auch unten hin möglich gewesen wenn man die Anzahl erst am Ende haben will###
         else:
             print ("falsch")
             print ("richtig gewesen wäre",produkt)
