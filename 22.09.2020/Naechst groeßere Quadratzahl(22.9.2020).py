@@ -5,12 +5,13 @@
 #
 
 
-
+#Variablen definieren:
 gefunden = False
 nächst_größere_quadratzahl = 0
 #Variablen für Überprüfung:
 natürliche_zahl = int(input("Bitte geben Sie eine natürliche Zahl an:"))
 x = natürliche_zahl
+wurzel = 0
 
 
 
@@ -22,20 +23,13 @@ while gefunden == False:
 
     #Überprüfung auf Quadratzahl:
     if check == wurzel:
-        gefunden = True
 
-        #Ausgabe:
-        print("Die nächst größere Quadratzahl zur Zahl", natürliche_zahl ," ist", nächst_größere_quadratzahl,".")
+        gefunden = True
+        print("Die nächst größere Quadratzahl zur Zahl", natürliche_zahl ," ist", x)   
+
     else:
-        pass
-    
+        pass 
 
 
 else:
     pass
-
-
-
-
-
-  
