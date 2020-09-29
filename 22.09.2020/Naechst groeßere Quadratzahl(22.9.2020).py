@@ -13,7 +13,6 @@ x = natürliche_zahl
 wurzel = 0
 
 
-
 while gefunden == False:
     
     x = x+1 
