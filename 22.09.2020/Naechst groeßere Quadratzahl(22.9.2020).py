@@ -7,7 +7,6 @@
 
 #Variablen definieren:
 gefunden = False
-nächst_größere_quadratzahl = 0
 #Variablen für Überprüfung:
 natürliche_zahl = int(input("Bitte geben Sie eine natürliche Zahl an:"))
 x = natürliche_zahl
