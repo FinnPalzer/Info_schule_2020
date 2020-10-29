@@ -7,7 +7,7 @@ def bremsweg_berechnen(geschwindigkeit):
     return bremsweg
 
 def anhalteweg_berechnen(geschwindigkeit):
-    anhalteweg = reaktionsweg + bremsweg
+    anhalteweg = reaktionsweg_berechnen(geschwindigkeit) + bremsweg_berechnen(geschwindigkeit)
     return anhalteweg
 
-   
+   ### l. 6 fehlerhaft
