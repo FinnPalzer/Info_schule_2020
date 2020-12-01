@@ -1,23 +1,18 @@
-def v1(parameter_list):
-    """
-    docstring
-    """
+def v1(laufzeit):
+    angelegteSumme1 = 10000
+    angelegteSumme2 = 5000
+    angelegteSumme3 = 7000
+
+    
     pass
 
-def v2(parameter_list):
-    """
-    docstring
-    """
-    pass    
 
-def v3(parameter_list):
-    """
-    docstring
-    """
-    pass
 
 def vermögengesammt(parameter_list):
     """
     docstring
     """
     pass
+
+
+###nur 2 funktionen nötig
