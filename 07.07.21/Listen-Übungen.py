@@ -4,7 +4,6 @@ from random import*
 #a) 
 def zufallszahlen_a(anzahl):
     L = []
-
     for i in range(0,1000):
         L = L + [randint(1,10000)]
     print(L)
@@ -13,22 +12,20 @@ def zufallszahlen_a(anzahl):
 def zufallszahlen_b(anzahl):
     L = []
     summe = 0
-
     for i in range(0,1000):
         L = L + [randint(1,10000)]
     print(L)
-
     for element in L:
         summe = summe + element
         durchschnitt = summe / 1000
     print(L)
     print("Durchschnitt:", durchschnitt)
 
+
 #Aufgabe2)
 #a) x=6
 def lotto_a(x):
     L = []
-
     for x in range(0,x):
         L = L + [randint(0,49)]
     print(L)
@@ -36,7 +33,6 @@ def lotto_a(x):
 #b) sollte stimmen x=6
 def lotto_b(x):
     L = []
-
     for x in range(0,x):
         y = randint(0,49)
         while y in L:
@@ -48,7 +44,6 @@ def lotto_b(x):
 
 def lotto_zusatz(x):
     L = []
-
     for x in range(0,x):
         y = randint(0,49)
         while y in L:
@@ -58,7 +53,6 @@ def lotto_zusatz(x):
     #Sortierung(gemogelt):
     sortiert = sorted(L)
     print(sortiert)
-
     #Sortierung so vie es der Lehrer will:
     """#Bubblesort
     for z in range(len(y)):
